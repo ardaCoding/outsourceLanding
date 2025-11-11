@@ -14,12 +14,10 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/l1a.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/l1a.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/l1a.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/l1a.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- ===============================================-->
@@ -95,27 +93,23 @@
       <!-- ===============================================-->
       <!-- Hero Section -->
       <!-- ===============================================-->
-      <section class="py-7 py-lg-10" id="home">
-        <div class="bg-holder bg-size" style="background-image:url(assets/img/Gemini_Generated_Image_xmf0wsxmf0wsxmf0.png);background-position:left center;background-size:contain;"></div>
+      <section class="py-7 py-lg-10 position-relative" id="home">
+        <div class="bg-holder bg-size" style="background-image:url(assets/img/Gemini_Generated_Image_xmf0wsxmf0wsxmf0.png);background-position:left top;background-size:contain;"></div>
         <!--/.bg-holder-->
-        <div class="bg-holder d-none d-xxl-block hero-bg" style="background-image:url(assets/img/Gemini_Generated_Image_xmf0wsxmf0wsxmf0.png);background-position:right center;background-size:contain;"></div>
+        <div class="bg-holder d-none d-xxl-block hero-bg" style="background-image:url(assets/img/Gemini_Generated_Image_xmf0wsxmf0wsxmf0.png);background-position:right top;background-size:contain;"></div>
         <!--/.bg-holder-->
-        <div class="container">
+        <div class="container position-relative" style="z-index: 1;">
           <div class="row align-items-center h-100 justify-content-center justify-content-lg-start">
-            <div class="col-md-9 col-xxl-6 text-md-start text-center py-6 pt-8">
+            <div class="col-md-9 col-xxl-5 text-md-start text-center py-6 pt-8">
               <h1 class="fs-4 fs-md-5 fs-xxl-4">
-                Outsource Yönetim Sistemi
+                OMT - Dış Kaynak Yönetimi
               </h1>
-              <p class="fs-1 mt-4">
-                Outsource personel yönetimini kolaylaştırın. Faturalandırma, izin takibi, mesai yönetimi ve daha fazlası için tek platform.
+              <p class="fs-1 mt-3">
+                Dış kaynak personel yönetimini kolaylaştırın. Faturalandırma, izin takibi, mesai yönetimi ve daha fazlası için tek platform.
               </p>
-              <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start mt-5">
-                <a class="btn btn-primary me-sm-3 mb-3 mb-sm-0" href="#!" role="button">
-                  Hemen Başla
-                </a>
-                <a class="btn btn-outline-primary" href="#!" role="button">
-                  Demo İzle
-                  <i class="fas fa-arrow-right ms-2"></i>
+              <div class="d-flex justify-content-center justify-content-md-start mt-4">
+                <a class="btn btn-primary" href="#!" role="button">
+                  Demo İste
                 </a>
               </div>
             </div>
@@ -132,7 +126,7 @@
           <div class="row mb-5">
             <div class="col-lg-12 text-center">
               <h5 class="text-uppercase text-primary fw-bold mb-3">ÖZELLİKLER</h5>
-              <h1 class="fs-2 fw-bold">Outsource Personel Yönetimini Kolaylaştırın</h1>
+              <h1 class="fs-2 fw-bold">Dış Kaynak Personel Yönetimini Kolaylaştırın</h1>
             </div>
           </div>
           <div class="row g-4 justify-content-center">
@@ -142,7 +136,7 @@
                 <img src="assets/img/description-1.png" class="card-img-top" alt="Personel Yönetimi">
                 <div class="card-body text-center">
                   <h4 class="card-title fw-bold">Personel Yönetimi</h4>
-                  <p class="card-text">Tüm outsource personellerinizi tek bir platformda yönetin. Hızlı ve kolay erişim ile personel bilgileriniz her zaman güncel.</p>
+                  <p class="card-text">Tüm dış kaynak personellerinizi tek bir platformda yönetin. Hızlı ve kolay erişim ile personel bilgileriniz her zaman güncel.</p>
                 </div>
               </div>
             </div>
@@ -172,6 +166,143 @@
         </div>
       </section>
       <!-- End Description Section -->
+
+      <!-- ============================================-->
+      <!-- How It Works Section - Services Tabs -->
+      <!-- ============================================-->
+      <section id="modules" class="py-6 bg-light">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-12 text-center">
+              <h5 class="text-uppercase text-primary fw-bold mb-3">HİZMETLERİMİZ</h5>
+              <h1 class="fs-2 fw-bold">OMT Nasıl Çalışır?</h1>
+              <p class="fs-1 mt-3">Sistemimiz, dış kaynak personel yönetimini otomatikleştirerek zaman kazandırır ve iş süreçlerinizi kolaylaştırır.</p>
+            </div>
+          </div>
+
+          <!-- Tabs Navigation -->
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="nav nav-pills justify-content-center mb-5" id="servicesTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active px-4 py-2 mx-2" id="personnel-tab" data-bs-toggle="pill" data-bs-target="#personnel" type="button" role="tab" aria-controls="personnel" aria-selected="true">
+                    <i class="fas fa-users me-2"></i>Personel Yönetimi
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link px-4 py-2 mx-2" id="billing-tab" data-bs-toggle="pill" data-bs-target="#billing" type="button" role="tab" aria-controls="billing" aria-selected="false">
+                    <i class="fas fa-file-invoice-dollar me-2"></i>Faturalandırma
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link px-4 py-2 mx-2" id="leave-tab" data-bs-toggle="pill" data-bs-target="#leave" type="button" role="tab" aria-controls="leave" aria-selected="false">
+                    <i class="fas fa-calendar-check me-2"></i>İzin & Mesai
+                  </button>
+                </li>
+              </ul>
+
+              <!-- Tabs Content -->
+              <div class="tab-content" id="servicesTabsContent">
+
+                <!-- Tab 1: Personel Yönetimi -->
+                <div class="tab-pane fade show active" id="personnel" role="tabpanel" aria-labelledby="personnel-tab">
+                  <div class="row align-items-center g-4">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                      <img src="assets/img/description-1.png" class="img-fluid rounded shadow-sm" alt="Personel Yönetimi">
+                    </div>
+                    <div class="col-lg-7">
+                      <h3 class="fw-bold mb-3">Tüm Personel Bilgileri Tek Yerden</h3>
+                      <p class="mb-4">Dış kaynak personellerinizi kolayca ekleyin, düzenleyin ve takip edin. Tüm bilgiler güvenli bir şekilde saklanır ve istediğiniz zaman erişilebilir.</p>
+                      <ul class="list-unstyled">
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Hızlı Personel Ekleme:</strong> Toplu veya tekli personel kaydı yapabilirsiniz
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Detaylı Profiller:</strong> İletişim bilgileri, pozisyon, departman ve daha fazlası
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Kolay Arama ve Filtreleme:</strong> İstediğiniz personeli anında bulun
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Belge Yönetimi:</strong> Sözleşme ve evrakları dijital ortamda saklayın
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 2: Faturalandırma -->
+                <div class="tab-pane fade" id="billing" role="tabpanel" aria-labelledby="billing-tab">
+                  <div class="row align-items-center g-4">
+                    <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                      <img src="assets/img/invoicephoto.jpg" class="rounded shadow-sm" alt="Faturalandırma Sistemi" style="max-width: 70%; height: auto;">
+                    </div>
+                    <div class="col-lg-7">
+                      <h3 class="fw-bold mb-3">Otomatik Faturalandırma ve Raporlama</h3>
+                      <p class="mb-4">Çalışma saatlerine ve mesai bilgilerine göre otomatik fatura oluşturun. Manuel işlemleri minimize ederek hata oranını düşürün.</p>
+                      <ul class="list-unstyled">
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Otomatik Hesaplama:</strong> Mesai ve izin bilgilerine göre otomatik tutar hesaplama
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Toplu Fatura Oluşturma:</strong> Tüm personeller için tek seferde fatura hazırlayın
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Detaylı Raporlar:</strong> Aylık, üç aylık ve yıllık mali raporlar
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>PDF ve Excel Export:</strong> Faturaları istediğiniz formatta dışa aktarın
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 3: İzin & Mesai -->
+                <div class="tab-pane fade" id="leave" role="tabpanel" aria-labelledby="leave-tab">
+                  <div class="row align-items-center g-4">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                      <img src="assets/img/description-3.png" class="img-fluid rounded shadow-sm" alt="İzin ve Mesai Takibi">
+                    </div>
+                    <div class="col-lg-7">
+                      <h3 class="fw-bold mb-3">Kolay İzin ve Mesai Yönetimi</h3>
+                      <p class="mb-4">Personel izin taleplerini ve mesai saatlerini dijital ortamda yönetin. Onay süreçlerini hızlandırın ve tüm kayıtları merkezi bir sistemde tutun.</p>
+                      <ul class="list-unstyled">
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Online İzin Talepleri:</strong> Personeller sistemden izin talebinde bulunabilir
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Hızlı Onay Süreci:</strong> İzinleri tek tıkla onaylayın veya reddedin
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Mesai Takibi:</strong> Normal ve fazla mesai saatlerini otomatik kaydedin
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check-circle text-primary me-2"></i>
+                          <strong>Takvim Görünümü:</strong> Tüm izin ve mesai bilgilerini takvimde görüntüleyin
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End How It Works Section -->
 
     </main>
     <!-- ===============================================-->
